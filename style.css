@@ -1,0 +1,110 @@
+  html {
+    font-size: 16px;
+  }
+  
+  @media (max-width: 768px) {
+   html {
+      font-size: 12px;
+    }
+ }
+
+  body *{
+    margin: 0 auto;
+  }
+
+  body {
+    font-family: "Roboto", "Arial", sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+
+  h1 {
+   font-size: 5rem;
+ }
+  h2 {
+     font-size: 2.5rem;
+ }
+  p {
+   font-size: 2.5rem;
+ }
+
+ header {
+    width: 100%;
+    min-height: 6,25rem;
+    padding: 0;
+    background-color: rgb(163, 162, 162);
+ }
+
+ header * {
+    display: inline;
+ }
+
+ .logo {
+    color: white;
+    font-size: 5rem;
+    margin-left: 3rem;
+    padding: 0;
+ }
+
+ .nav-bar {
+    float: right;
+    margin-right: 3rem;
+ }
+
+ .nav-bar a {
+    color:white;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 5.25rem;
+    border-right: 0.2rem solid white;
+    cursor: pointer;
+ }
+
+ .nav-bar li:last-child a{
+    border-right-style: none;
+ }
+
+ .nav-bar a:focus,.nav-bar a:hover {
+    color:rgb(63, 63, 63);
+ }
+
+ .nav-bar a:active{
+    color:rgb(0, 0, 0);
+ }
+
+ main {
+   overflow: auto;
+   background: #ffffff;
+   min-height: 200rem;
+   /*background: linear-gradient(0deg, #C0C0C0, #3A3A3A);*/
+ }
+
+ .homepage {
+    min-height: 440px;
+    margin: 1rem;
+    border: 0.5rem dashed rgb(167, 167, 167);
+    padding: 2rem;
+    background-color: rgb(219, 219, 219);
+ }
+
+ .homepage img{
+    float: left;
+    margin-right: 2rem;
+    max-width: 100%;
+ }
+
+ @media (max-width: 1300px) {
+   .homepage img{
+      width: 100%;
+      margin-bottom: 1rem;
+   }
+ }
+
+ .homepage p{
+    line-height: 4rem;
+ }
+
+ 
