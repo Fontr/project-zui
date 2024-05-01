@@ -92,24 +92,30 @@
   line-height: 6.7rem;
  }
 
+ .homepage_images {
+    flex: 2 600px;
+    display: flex;
+    justify-content: space-between;
+ }
 
- .image1, .image2 {
+ .homepage_images img {
    display: inline-block;
-   flex: 150px;
-   min-width: 15rem;
-   height: 25rem;
-   margin-right: 3rem;
+   width: 45%;
    margin-bottom: 3rem;
    background-color: rgb(126, 126, 126);
    border-radius:2rem;
  }
 
- .image1 {
-   margin-top: 5rem;
- }
+ .homepage_images img:first-child {
+  
+}
+ .homepage_images img:last-child {
+
+}
 
  .homepage p{
    display:  inline-block;
-   flex: 300px;
+   flex: 1 300px;
    min-width: 20rem;
+   margin-left: 2rem;
  }
