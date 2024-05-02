@@ -68,10 +68,19 @@
  }
 
  nav a{
+  color: black;
    font-size: 1.5rem;
    font-weight: bold;
    line-height: 6.25rem;
-   cursor: pointer;
+   text-decoration: none;
+ }
+
+ nav a:hover, nav a:focus {
+  color: #6c6c6c;
+ }
+
+ nav a:active {
+  color: black;
  }
 
  .home {
@@ -227,36 +236,41 @@
  }
 
  .dima_frame img {
-  width: 600px;
-  height: 600px;
+  width: 100%;
  }
 
  .dima_first_frame {
+  width: 40%;
   background-color: black;
   border-radius: 3rem 0 0 0;
  }
 
  .dima_second_frame {
+  width: 40%;
   background-color: #D6D6D6;
  }
 
+ @media (max-width: 1000px) {
+  .dima_second_frame, .dima_first_frame{
+    width: 90%;
+  }
+}
+
 .dima_first_frame h2, .dima_second_frame h2 {
   height: 17rem;
-  position: relative;
   line-height:17rem;
   font-family: "Cinzel";
   font-weight: 400;
   color:white;
+  text-align: center;
 }
 
  .dima_first_frame h2 {
   font-size: 8rem;
-  left: 8rem;
  }
 
  .dima_second_frame h2 {
   font-size: 6rem;
-  left: 3.5rem;
  }
 
  footer {
